@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "defaultDestination": "wwwroot/lib",
+  "_source": "package.json (vite / axios / laravel-vite-plugin are not used: the pages load their CSS and JS from wwwroot and the CDNs below) + the CDN <link>/<script> tags of resources/views/partials/head.blade.php and admin/dashboard.blade.php",
+  "libraries": [
+    { "library": "bootstrap@5.3.3", "provider": "jsdelivr", "destination": "wwwroot/lib/bootstrap", "files": [ "dist/css/bootstrap.min.css", "dist/js/bootstrap.bundle.min.js" ] },
+    { "library": "bootstrap-icons@1.11.3", "provider": "jsdelivr", "destination": "wwwroot/lib/bootstrap-icons", "files": [ "font/bootstrap-icons.min.css", "font/fonts/bootstrap-icons.woff", "font/fonts/bootstrap-icons.woff2" ] },
+    { "library": "Chart.js@4.4.1", "destination": "wwwroot/lib/chartjs", "files": [ "chart.umd.min.js" ] }
+  ]
+}
